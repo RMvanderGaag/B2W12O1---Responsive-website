@@ -1,0 +1,78 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive website</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″/>
+	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	<div id="page">
+		<header>
+			<nav id="nav_Info">
+				<div class="dropdown">
+					<i onclick="showContent()" class="fas fa-bars fa-lg" class="hamburger" id="yellowBurger"></i>
+					<div class="dropdownContent" id="dropdown_1">
+							<li><a href=""><i class="fas fa-phone"></i> (06) --- --- --</a></li>
+							<li><a href=""><i class="fab fa-whatsapp"></i> (06) --- --- --</a></li>
+							<li><a href=""><i class="far fa-clock"></i> Ma - Zo: 8:00 - 22:00</a></li>
+							<li><a href=""><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+							<div id="media">
+								<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+							</div>
+					</div>
+				</div>
+			</nav>
+			<nav id="nav_Bar">
+				<div class="dropdown" id="whiteDropdown">
+					<i onclick="showContent_2()" class="fas fa-bars fa-lg" class="hamburger" id="whiteBurger"></i>
+					<div id="dropdown_2" class="dropdownContent">
+						<li><a href="">AUTORIJBEWIJS</a></li>
+						<li><a href="">MOTORRIJBEWIJS</a></li>
+						<li><a href="">THEORIELES</a></li>
+						<li><a href="">OPFRIS CURSUS</a></li>
+						<li><a href="">CONTACT</a></li>
+					</div>
+				</div>
+					<img src="logo.png" alt="logo" id="logo">
+			</nav>
+		</header>
+
+		<section>
+			<img id="showcase" src="people_car.jpg" alt="people in car">
+		</section>
+		<div id="underPage">
+			<div id="grid">
+				<article>
+					<h1> <i class="fas fa-car-side"></i> PROEFLES</h1>
+					<hr>
+					<p>Weet u het nog niet zeker maar wilt u het toch even proberen bij flexi. Dat kan, want met een vrijblijvende intakeles zit jij nergens aan vast. Jij voelt meteen of er een klik is tussen jou en de rijinstructuer. Is er geen klik, dan zijn er nog andere FLEXi rijinstructeur. Ook bij andere rijinstructeur geldt de vrijblijvende intakeles! Wel zo mooi</p>
+					<div id="buttonHolder">
+						<button>GRATIS proefles</button>
+					</div>	
+				</article>
+
+				<article>
+					<h1><i class="fas fa-map"></i> LOCATIES</h1>
+					<hr>
+					<p>Onze rijinstructeurs zijn verspreid over wel bijna heel Nederland. Er is dus bijna altijd wel een rijinstructeur bij jou in de beurt. Is er bij jou in de beurt nog ggen FLEXi rijschool. Bel dan even met ons. Wij kijken dan samen of we toch een FLEXi rijinstructeur voor jou kunnen regelen. Klik <span id="link">hier</span> de locaties.</p>
+				</article>
+
+				<article>
+					<h1><i class="fas fa-graduation-cap"></i> RIJLESSEN</h1>
+					<hr>
+					<p>De rijlessen van FLEXi worden op basis van een istructiekaart voorbereid en uitgevoerd. Op de instructiekaart houdt de FLEXi rijinstructeur jouw vorderingen in de gaten. Ook gebruiken de meeste FLEXi rijinstructeurs een dashcam, zodat de les of een deel van de les teruggekeken wordt. Hier halen jij en jou FLEXi rijinstructeur de pos en nav en bespreekt dit met jou.</p>
+				</article>
+			</div>
+
+			<div id="video">
+				<iframe width="90%" height="315" src="https://www.youtube.com/embed/-LIhqaqeXUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
